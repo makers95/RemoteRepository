@@ -1,4 +1,5 @@
 <%@ page contentType="text/html; charset=utf-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +12,7 @@
 <div class='center' >
 <h1 class='center'>綠色健康旅遊系統</h1>
 <br>
-<a href='ch01/index.jsp'>會員管理</a>
+<a href="<c:url value='/index.jsp'/>">會員管理</a>
 </div>
 
 </body>
